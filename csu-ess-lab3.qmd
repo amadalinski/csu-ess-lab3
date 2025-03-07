@@ -118,8 +118,6 @@ Question 4:
 
 ```{r}
 
-# I used my joined data set since that is the one that had the column with per_captia_new_cases, however I think I need to use the full covid data set?
-
 latest_date <- max(df_co$date, na.rm = TRUE)
 start_date <- latest_date - 14
 
